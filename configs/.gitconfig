@@ -1,0 +1,14 @@
+# Times is Git's per-user configuration file.
+[user]
+	name = Javkhlan
+	email = javhlan0420@gmail.com
+# Please adapt and uncomment the following lines:
+#       name = Jak
+#	email = 95999268+Jak2423@users.noreply.github.com
+[filter "lfs"]
+	process = git-lfs filter-process
+	required = true
+	clean = git-lfs clean -- %f
+	smudge = git-lfs smudge -- %f
+[core]
+	excludesfile = ~/.gitignore
