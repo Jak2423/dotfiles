@@ -23,6 +23,7 @@ ln -s ~/.dotfiles/configs/.zshrc ~/.zshrc
 ln -s ~/.dotfiles/configs/.gitconfig ~/.gitconfig
 ln -s ~/.dotfiles/configs/iterm2/.p10k.zsh ~/.p10k.zsh
 ln -s ~/.dotfiles/Wallpapers ~/Wallpapers
+ln -s ~/.dotfiles/configs/neofetch ~/.config
 
 ln -s /Users/jak/.dotfiles/configs/vscode/settings.json /Users/jak/Library/Application\ Support/Code/User/settings.json
 ln -s /Users/jak/.dotfiles/configs/vscode/keybindings.json /Users/jak/Library/Application\ Support/Code/User/keybindings.json
