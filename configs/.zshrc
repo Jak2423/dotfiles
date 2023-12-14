@@ -133,11 +133,7 @@ export NVM_DIR="$HOME/.nvm"
 # To customize prompt, run `p10k configure` or edit ~/.dotfiles/.p10k.zsh.
 [[ ! -f ~/.dotfiles/.p10k.zsh ]] || source ~/.dotfiles/.p10k.zsh
 
-
-#
 # Aliases
-#
-
 alias clr='clear'
 
 # Go to the /home/$USER (~) directory and clears window of your terminal
@@ -149,37 +145,24 @@ alias g="git"
 [ -d ~/Documents ]            && alias dm='cd ~/Documents'
 [ -d ~/Downloads ]            && alias dl='cd ~/Downloads'
 [ -d ~/Desktop ]              && alias dt='cd ~/Desktop'
-[ -d ~/Desktop/Projects ]             && alias pj='cd ~/Desktop/Projects'
+[ -d ~/Desktop/Projects ]     && alias pj='cd ~/Desktop/Projects'
 
-# Open aliases
 alias o='open'
 alias oo='open .'
-
-# Open zsh profile
 alias zshrc='code ~/.zshrc'
-
-# Quick jump to dotfiles
-alias dotfiles="code .dotfiles"
-
-# Quick reload of zsh environment
 alias reload="source $HOME/.zshrc"
-
-# internet speed test
+alias dotfiles="code .dotfiles"
 alias speed="networkQuality"
-
-# python3
 alias python="python3"
-
-# neofetch
 alias neo="neofetch"
 
 # Show $PATH in readable view
 alias path='echo -e ${PATH//:/\\n}'‘export PATH=“/opt/homebrew/opt/openssl@1.1/bin:/Users/jak/.nvm/versions/node/v19.3.0/bin:/opt/homebrew/bin:/usr/local/bin:/System/Cryptexes/App/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/Library/Apple/usr/bin:/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/local/bin:/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/bin:/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin:/Users/jak/flutter/bin”’
 
-
-# bun completions
-[ -s "/Users/jak/.bun/_bun" ] && source "/Users/jak/.bun/_bun"
-
-# bun
-export BUN_INSTALL="$HOME/.bun"
-export PATH="$BUN_INSTALL/bin:$PATH"
+#binds
+bindkey "^[[3~" delete-char
+bindkey "^A" beginning-of-line
+bindkey "^Q" end-of-line
+bindkey "^[[1;5C" forward-word
+bindkey "^[[1;5D" backward-word
+bindkey "5~" delete-word

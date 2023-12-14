@@ -72,7 +72,7 @@
 	"editor.insertSpaces": true,
 	"editor.detectIndentation": false,
 	"editor.fontFamily": "'JetBrains Mono', 'MesloLGS NF'",
-	"editor.fontSize": 15,
+	"editor.fontSize": 13,
 	"editor.fontLigatures": true,
 	"editor.smoothScrolling": true,
 	"editor.cursorBlinking": "smooth",
@@ -93,9 +93,9 @@
 	"prettier.endOfLine": "auto",
 	"editor.codeLens": false,
 	"editor.codeActionsOnSave": {
-		"source.fixAll": true,
-		"source.sortImport": true,
-		"source.organizeImports": true
+		"source.fixAll": "explicit",
+		"source.sortImport": "explicit",
+		"source.organizeImports": "explicit"
 	},
 	// "code-runner.executorMap": {
 	// 	"c": "cd $dir && gcc *.c -o $fileNameWithoutExt && $dir$fileNameWithoutExt"
@@ -110,7 +110,7 @@
 		"editor.suggest.snippetsPreventQuickSuggestions": true,
 		"editor.suggestSelection": "recentlyUsedByPrefix",
 		"editor.tabCompletion": "onlySnippets",
-		"editor.wordBasedSuggestions": false
+		"editor.wordBasedSuggestions": "off"
 	},
 	"editor.foldingStrategy": "indentation",
 	"workbench.list.smoothScrolling": true,
@@ -156,5 +156,6 @@
 		"breadcrumb.background": "#0f0f0f"
 	},
 	"workbench.iconTheme": "icons",
-	"extensions.ignoreRecommendations": true
+	"extensions.ignoreRecommendations": true,
+	"diffEditor.hideUnchangedRegions.enabled": true
 }
