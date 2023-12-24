@@ -19,11 +19,18 @@
 	},
 	"emmet.includeLanguages": {
 		"erb": "html",
-		"javascript": "javascriptreact"
+		"javascript": "javascriptreact",
+		"typescript": "typescriptreact"
 	},
 
 	"editor.defaultFormatter": "esbenp.prettier-vscode",
 	"[javascript]": {
+		"editor.defaultFormatter": "esbenp.prettier-vscode"
+	},
+	"[typescript]": {
+		"editor.defaultFormatter": "vscode.typescript-language-features"
+	},
+	"[typescriptreact]": {
 		"editor.defaultFormatter": "esbenp.prettier-vscode"
 	},
 	"[json]": {
@@ -41,13 +48,13 @@
 	"editor.renderControlCharacters": true,
 	"editor.rulers": [100],
 	"editor.showFoldingControls": "mouseover",
-	"editor.snippetSuggestions": "top",
-	"editor.suggestSelection": "first",
-	"editor.quickSuggestions": {
-		"other": "on",
-		"comments": "off",
-		"strings": "on"
-	},
+	// "editor.snippetSuggestions": "top",
+	// "editor.suggestSelection": "first",
+	// "editor.quickSuggestions": {
+	// 	"other": "on",
+	// 	"comments": "off",
+	// 	"strings": "on"
+	// },
 
 	"files.autoSave": "onFocusChange",
 	"files.trimTrailingWhitespace": true,
@@ -157,5 +164,6 @@
 	},
 	"workbench.iconTheme": "icons",
 	"extensions.ignoreRecommendations": true,
-	"diffEditor.hideUnchangedRegions.enabled": true
+	"diffEditor.hideUnchangedRegions.enabled": true,
+	"git.openRepositoryInParentFolders": "never"
 }
