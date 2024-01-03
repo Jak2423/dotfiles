@@ -140,12 +140,18 @@ alias clr='clear'
 alias q="~ && clear"
 
 alias g="git"
+alias ..="cd .."
+alias gs="git status"
+alias gp="git pull"
+alias gb="git branch"
+alias ga="git add ."
+alias gc="git commit -m $1"
 
 # Folders Shortcuts
 [ -d ~/Documents ]            && alias dm='cd ~/Documents'
 [ -d ~/Downloads ]            && alias dl='cd ~/Downloads'
 [ -d ~/Desktop ]              && alias dt='cd ~/Desktop'
-[ -d ~/Desktop/Projects ]     && alias pj='cd ~/Desktop/Projects'
+[ -d ~/Desktop/Project ]     && alias dev='cd ~/Desktop/Project'
 
 alias o='open'
 alias oo='open .'
@@ -155,6 +161,7 @@ alias dotfiles="code .dotfiles"
 alias speed="networkQuality"
 alias python="python3"
 alias neo="neofetch"
+
 
 # Show $PATH in readable view
 alias path='echo -e ${PATH//:/\\n}'‘export PATH=“/opt/homebrew/opt/openssl@1.1/bin:/Users/jak/.nvm/versions/node/v19.3.0/bin:/opt/homebrew/bin:/usr/local/bin:/System/Cryptexes/App/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/Library/Apple/usr/bin:/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/local/bin:/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/bin:/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin:/Users/jak/flutter/bin”’
