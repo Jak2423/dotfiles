@@ -104,6 +104,7 @@
 		"source.sortImport": "explicit",
 		"source.organizeImports": "explicit"
 	},
+
 	// "code-runner.executorMap": {
 	// 	"c": "cd $dir && gcc *.c -o $fileNameWithoutExt && $dir$fileNameWithoutExt"
 	// },
@@ -165,5 +166,8 @@
 	"workbench.iconTheme": "icons",
 	"extensions.ignoreRecommendations": true,
 	"diffEditor.hideUnchangedRegions.enabled": true,
-	"git.openRepositoryInParentFolders": "never"
+	"git.openRepositoryInParentFolders": "never",
+	"editor.guides.highlightActiveIndentation": true,
+	"editor.guides.bracketPairsHorizontal": "active",
+	"editor.acceptSuggestionOnCommitCharacter": true
 }
