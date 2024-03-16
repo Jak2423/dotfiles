@@ -17,8 +17,9 @@ export PATH="/usr/local/opt/openssl@1.1/bin:$PATH"
 export PATH="/opt/homebrew/bin:$PATH"
 # Path to flutter
 export PATH="$PATH:/Users/jak/flutter/bin"
-# Path to laravel
-export PATH="$PATH:$HOME/.composer/vendor/bin"
+
+export PATH="/usr/local/texlive/2023/bin/universal-darwin:$PATH"
+
 
 # Set name of the theme to load --- if set to "random", it will
 # load a random theme each time oh-my-zsh is loaded, in which case,
@@ -134,7 +135,8 @@ export NVM_DIR="$HOME/.nvm"
 [[ ! -f ~/.dotfiles/.p10k.zsh ]] || source ~/.dotfiles/.p10k.zsh
 
 # Aliases
-alias clr='clear'
+alias c='clear'
+alias e='exit'
 
 # Go to the /home/$USER (~) directory and clears window of your terminal
 alias q="~ && clear"
@@ -151,7 +153,7 @@ alias gc="git commit -m $1"
 [ -d ~/Documents ]            && alias dm='cd ~/Documents'
 [ -d ~/Downloads ]            && alias dl='cd ~/Downloads'
 [ -d ~/Desktop ]              && alias dt='cd ~/Desktop'
-[ -d ~/Desktop/Project ]     && alias dev='cd ~/Desktop/Project'
+[ -d ~/Desktop/Projects ]     && alias dev='cd ~/Desktop/Projects'
 
 alias o='open'
 alias oo='open .'
@@ -160,7 +162,6 @@ alias reload="source $HOME/.zshrc"
 alias dotfiles="code .dotfiles"
 alias speed="networkQuality"
 alias python="python3"
-alias neo="neofetch"
 
 
 # Show $PATH in readable view

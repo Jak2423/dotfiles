@@ -1,7 +1,6 @@
 {
 	"window.restoreWindows": "none",
 	"workbench.startupEditor": "none",
-	"workbench.editor.enablePreview": false,
 	"workbench.editor.highlightModifiedTabs": true,
 	"terminal.integrated.fontFamily": "MesloLGS NF",
 	"terminal.external.osxExec": "iTerm.app",
@@ -46,15 +45,15 @@
 	"editor.guides.bracketPairs": "active",
 	"editor.multiCursorModifier": "ctrlCmd",
 	"editor.renderControlCharacters": true,
-	"editor.rulers": [100],
+	"editor.rulers": [110],
 	"editor.showFoldingControls": "mouseover",
 	// "editor.snippetSuggestions": "top",
 	// "editor.suggestSelection": "first",
-	// "editor.quickSuggestions": {
-	// 	"other": "on",
-	// 	"comments": "off",
-	// 	"strings": "on"
-	// },
+	"editor.quickSuggestions": {
+		"other": "on",
+		"comments": "off",
+		"strings": true
+	},
 
 	"files.autoSave": "onFocusChange",
 	"files.trimTrailingWhitespace": true,
@@ -79,13 +78,13 @@
 	"editor.insertSpaces": true,
 	"editor.detectIndentation": false,
 	"editor.fontFamily": "'JetBrains Mono', 'MesloLGS NF'",
-	"editor.fontSize": 13,
 	"editor.fontLigatures": true,
 	"editor.smoothScrolling": true,
 	"editor.cursorBlinking": "smooth",
 	"editor.cursorStyle": "line",
 	"editor.minimap.enabled": false,
 	"editor.wordWrap": "wordWrapColumn",
+	"editor.wordWrapColumn": 100,
 	"editor.formatOnSave": true,
 	"editor.formatOnPaste": true,
 	"editor.unicodeHighlight.nonBasicASCII": false,
@@ -122,12 +121,10 @@
 	},
 	"editor.foldingStrategy": "indentation",
 	"workbench.list.smoothScrolling": true,
-	"terminal.integrated.enableMultiLinePasteWarning": false,
-
 	"git.enabled": true,
-
+	"editor.fontSize": 13,
+	"window.newWindowDimensions": "maximized",
 	"window.commandCenter": false,
-	"workbench.colorTheme": "Material Theme Darker High Contrast",
 	"workbench.productIconTheme": "icons-carbon",
 	"workbench.colorCustomizations": {
 		"input.background": "#191919",
@@ -144,7 +141,7 @@
 		"settings.checkboxBackground": "#191919",
 		"editor.background": "#0f0f0f",
 		"tab.activeBackground": "#131313",
-		"tab.inactiveBackground": "#0f0f0f", //0f0f0f
+		"tab.inactiveBackground": "#0f0f0f",
 		"sideBar.background": "#131313",
 		"sideBarSectionHeader.background": "#131313", //1a1a1a
 		"activityBar.background": "#131313",
@@ -161,7 +158,8 @@
 		"quickInput.background": "#0f0f0f",
 		"editorOverviewRuler.border": "#0f0f0f",
 		"notifications.background": "#0f0f0f",
-		"breadcrumb.background": "#0f0f0f"
+		"breadcrumb.background": "#0f0f0f",
+		"editorIndentGuide.activeBackground1": "#9CDBFB"
 	},
 	"workbench.iconTheme": "icons",
 	"extensions.ignoreRecommendations": true,
@@ -169,5 +167,22 @@
 	"git.openRepositoryInParentFolders": "never",
 	"editor.guides.highlightActiveIndentation": true,
 	"editor.guides.bracketPairsHorizontal": "active",
-	"editor.acceptSuggestionOnCommitCharacter": true
+	"editor.acceptSuggestionOnCommitCharacter": true,
+	"editor.accessibilitySupport": "off",
+	"diffEditor.ignoreTrimWhitespace": false,
+	"workbench.editor.enablePreview": false,
+	"[latex]": {
+		"editor.defaultFormatter": "James-Yu.latex-workshop",
+		"editor.formatOnSave": false
+	},
+	"update.showReleaseNotes": false,
+	"latex-workshop.latex.tools": [
+		{
+			"name": "latexmk",
+			"command": "latexmk",
+			"args": ["-xelatex", "-synctex=1", "-interaction=nonstopmode", "-file-line-error", "%DOC%"]
+		}
+	],
+	"editor.foldingImportsByDefault": true,
+	"workbench.colorTheme": "Material Theme High Contrast"
 }
