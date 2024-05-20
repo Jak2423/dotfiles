@@ -174,3 +174,7 @@ bindkey "^Q" end-of-line
 bindkey "^[[1;5C" forward-word
 bindkey "^[[1;5D" backward-word
 bindkey "5~" delete-word
+
+zstyle ':completion:*' list-colors "${(s.:.)LS_COLORS}"
+# Aliases
+alias ls='ls --color'
