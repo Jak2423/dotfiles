@@ -3,7 +3,6 @@
 	"workbench.startupEditor": "none",
 	"workbench.editor.highlightModifiedTabs": true,
 	"terminal.integrated.fontFamily": "MesloLGS NF",
-	"terminal.external.osxExec": "iTerm.app",
 	"terminal.integrated.cursorBlinking": true,
 	"terminal.integrated.cursorStyle": "line",
 	"explorer.sortOrder": "type",
@@ -38,7 +37,7 @@
 	"editor.guides.bracketPairs": "active",
 	"editor.multiCursorModifier": "ctrlCmd",
 	"editor.renderControlCharacters": true,
-	"editor.rulers": [110],
+	"editor.rulers": [145],
 	"editor.showFoldingControls": "mouseover",
 	"editor.quickSuggestions": {
 		"other": "on",
@@ -73,9 +72,8 @@
 	"editor.smoothScrolling": true,
 	"editor.cursorBlinking": "smooth",
 	"editor.cursorStyle": "line",
-	"editor.minimap.enabled": false,
 	"editor.wordWrap": "wordWrapColumn",
-	"editor.wordWrapColumn": 100,
+	"editor.wordWrapColumn": 140,
 	"editor.formatOnSave": true,
 	"editor.formatOnPaste": true,
 	"editor.unicodeHighlight.nonBasicASCII": false,
@@ -103,7 +101,7 @@
 	"[dart]": {
 		"editor.formatOnSave": true,
 		"editor.formatOnType": true,
-		"editor.rulers": [80],
+		"editor.rulers": [150],
 		"editor.selectionHighlight": false,
 		"editor.suggest.snippetsPreventQuickSuggestions": true,
 		"editor.suggestSelection": "recentlyUsedByPrefix",
@@ -131,14 +129,14 @@
 		"settings.textInputBackground": "#111111",
 		"settings.checkboxBackground": "#111111",
 		"editor.background": "#000000",
-		"tab.activeBackground": "#0B0B0C",
+		"tab.activeBackground": "#131313",
 		"tab.inactiveBackground": "#000000",
 		"sideBar.background": "#0B0B0C",
-		"sideBarSectionHeader.background": "#0B0B0C", //1a1a1a
-		"activityBar.background": "#0B0B0C",
-		"statusBar.background": "#0B0B0C",
-		"scrollbarSlider.activeBackground": "#0B0B0C",
-		"tab.activeBorder": "#000000",
+		"sideBarSectionHeader.background": "#131313", //1a1a1a
+		"activityBar.background": "#131313",
+		"statusBar.background": "#131313",
+		"scrollbarSlider.activeBackground": "#131313",
+		"tab.activeBorder": "#0a0909",
 		"editorGroupHeader.tabsBackground": "#000000",
 		"statusBar.noFolderBackground": "#000000",
 		"tab.border": "#000000",
@@ -154,7 +152,6 @@
 	},
 	"workbench.iconTheme": "icons",
 	"extensions.ignoreRecommendations": true,
-	"diffEditor.hideUnchangedRegions.enabled": true,
 	"git.openRepositoryInParentFolders": "never",
 	"editor.guides.highlightActiveIndentation": true,
 	"editor.guides.bracketPairsHorizontal": "active",
@@ -162,18 +159,9 @@
 	"editor.accessibilitySupport": "off",
 	"diffEditor.ignoreTrimWhitespace": false,
 	"workbench.editor.enablePreview": false,
-	"[latex]": {
-		"editor.defaultFormatter": "James-Yu.latex-workshop",
-		"editor.formatOnSave": false
-	},
 	"update.showReleaseNotes": false,
-	"latex-workshop.latex.tools": [
-		{
-			"name": "latexmk",
-			"command": "latexmk",
-			"args": ["-xelatex", "-synctex=1", "-interaction=nonstopmode", "-file-line-error", "%DOC%"]
-		}
-	],
 	"editor.foldingImportsByDefault": true,
-	"workbench.colorTheme": "Material Theme High Contrast"
+	"workbench.colorTheme": "Material Theme High Contrast",
+	"editor.minimap.enabled": false,
+	"terminal.external.osxExec": "iTerm.app"
 }

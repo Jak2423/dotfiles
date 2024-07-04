@@ -148,6 +148,7 @@ alias gp="git pull"
 alias gb="git branch"
 alias ga="git add ."
 alias gc="git commit -m $1"
+alias gu="git reset --soft HEAD~1"
 
 # Folders Shortcuts
 [ -d ~/Documents ]            && alias dm='cd ~/Documents'
