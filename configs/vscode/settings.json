@@ -8,13 +8,6 @@
 	"explorer.sortOrder": "type",
 	"explorer.confirmDelete": false,
 	"explorer.confirmDragAndDrop": false,
-	"liveServer.settings.donotShowInfoMsg": true,
-	"emmet.includeLanguages": {
-		"erb": "html",
-		"javascript": "javascriptreact",
-		"typescript": "typescriptreact"
-	},
-
 	"editor.defaultFormatter": "esbenp.prettier-vscode",
 	"[javascript]": {
 		"editor.defaultFormatter": "esbenp.prettier-vscode"
@@ -113,7 +106,6 @@
 	"git.enabled": true,
 	"editor.fontSize": 13,
 	"window.newWindowDimensions": "maximized",
-	"window.commandCenter": false,
 	"workbench.productIconTheme": "icons-carbon",
 	"workbench.colorCustomizations": {
 		"input.background": "#111111",
@@ -149,6 +141,7 @@
 		"notifications.background": "#000000",
 		"breadcrumb.background": "#000000",
 		"editorIndentGuide.activeBackground1": "#9CDBFB"
+		// "editorLineNumber.activeForeground": "#111"
 	},
 	"workbench.iconTheme": "icons",
 	"extensions.ignoreRecommendations": true,
@@ -161,7 +154,13 @@
 	"workbench.editor.enablePreview": false,
 	"update.showReleaseNotes": false,
 	"editor.foldingImportsByDefault": true,
-	"workbench.colorTheme": "Material Theme High Contrast",
+	"workbench.colorTheme": "Material Theme Darker",
 	"editor.minimap.enabled": false,
-	"terminal.external.osxExec": "iTerm.app"
+	"terminal.external.osxExec": "iTerm.app",
+	"window.title": "${activeEditorMedium}",
+	"window.commandCenter": false,
+	"git.confirmSync": false,
+	"explorer.autoReveal": true,
+	"scm.showIncomingChanges": "never",
+	"scm.showOutgoingChanges": "never"
 }
