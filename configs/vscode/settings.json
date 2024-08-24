@@ -25,7 +25,6 @@
 	"typescript.updateImportsOnFileMove.enabled": "always",
 	"javascript.suggest.autoImports": true,
 	"typescript.suggest.autoImports": true,
-
 	"editor.bracketPairColorization.enabled": true,
 	"editor.guides.bracketPairs": "active",
 	"editor.multiCursorModifier": "ctrlCmd",
@@ -51,9 +50,7 @@
 		"**/*.exe": true,
 		"**/.classpath": true,
 		"**/.project": true,
-		"**/.settings": true,
 		"**/.factorypath": true,
-		"**/.vscode": true,
 		"**/*.meta": true,
 		"**/Icon*": true
 	},
@@ -85,11 +82,6 @@
 		"source.sortImport": "explicit",
 		"source.organizeImports": "explicit"
 	},
-
-	// "code-runner.executorMap": {
-	// 	"c": "cd $dir && gcc *.c -o $fileNameWithoutExt && $dir$fileNameWithoutExt"
-	// },
-
 	"editor.inlineSuggest.enabled": true,
 	"[dart]": {
 		"editor.formatOnSave": true,
@@ -141,26 +133,24 @@
 		"notifications.background": "#000000",
 		"breadcrumb.background": "#000000",
 		"editorIndentGuide.activeBackground1": "#9CDBFB"
-		// "editorLineNumber.activeForeground": "#111"
 	},
 	"workbench.iconTheme": "icons",
 	"extensions.ignoreRecommendations": true,
-	"git.openRepositoryInParentFolders": "never",
 	"editor.guides.highlightActiveIndentation": true,
 	"editor.guides.bracketPairsHorizontal": "active",
-	"editor.acceptSuggestionOnCommitCharacter": true,
-	"editor.accessibilitySupport": "off",
 	"diffEditor.ignoreTrimWhitespace": false,
 	"workbench.editor.enablePreview": false,
 	"update.showReleaseNotes": false,
 	"editor.foldingImportsByDefault": true,
 	"workbench.colorTheme": "Material Theme Darker",
-	"editor.minimap.enabled": false,
 	"terminal.external.osxExec": "iTerm.app",
 	"window.title": "${activeEditorMedium}",
 	"window.commandCenter": false,
 	"git.confirmSync": false,
 	"explorer.autoReveal": true,
-	"scm.showIncomingChanges": "never",
-	"scm.showOutgoingChanges": "never"
+	"indentRainbow.indicatorStyle": "light",
+	"workbench.editor.customLabels.patterns": {
+		"**/app/**/page.tsx": "${dirname} - page.tsx",
+		"**/app/**/layout.tsx": "${dirname} - layout.tsx"
+	}
 }
