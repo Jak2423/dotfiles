@@ -63,7 +63,7 @@
 	"editor.cursorBlinking": "smooth",
 	"editor.cursorStyle": "line",
 	"editor.wordWrap": "wordWrapColumn",
-	"editor.wordWrapColumn": 140,
+	"editor.wordWrapColumn": 100,
 	"editor.formatOnSave": true,
 	"editor.formatOnPaste": true,
 	"editor.unicodeHighlight.nonBasicASCII": false,
@@ -148,9 +148,10 @@
 	"window.commandCenter": false,
 	"git.confirmSync": false,
 	"explorer.autoReveal": true,
-	"indentRainbow.indicatorStyle": "light",
 	"workbench.editor.customLabels.patterns": {
 		"**/app/**/page.tsx": "${dirname} - page.tsx",
 		"**/app/**/layout.tsx": "${dirname} - layout.tsx"
-	}
+	},
+	"editor.minimap.enabled": false,
+	"editor.accessibilitySupport": "off"
 }
