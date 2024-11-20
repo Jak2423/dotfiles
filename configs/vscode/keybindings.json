@@ -30,5 +30,10 @@
 		"key": "cmd+shift+n",
 		"command": "explorer.newFolder",
 		"when": "explorerViewletFocus"
+	},
+	{
+		"key": "shift+cmd+m",
+		"command": "-workbench.actions.view.problems",
+		"when": "workbench.panel.markers.view.active"
 	}
 ]

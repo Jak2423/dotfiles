@@ -29,7 +29,7 @@
 	"editor.guides.bracketPairs": "active",
 	"editor.multiCursorModifier": "ctrlCmd",
 	"editor.renderControlCharacters": true,
-	"editor.rulers": [145],
+	"editor.rulers": [150],
 	"editor.showFoldingControls": "mouseover",
 	"editor.quickSuggestions": {
 		"other": "on",
@@ -153,5 +153,6 @@
 		"**/app/**/layout.tsx": "${dirname} - layout.tsx"
 	},
 	"editor.minimap.enabled": false,
-	"editor.accessibilitySupport": "off"
+	"editor.accessibilitySupport": "off",
+	"workbench.activityBar.location": "top"
 }

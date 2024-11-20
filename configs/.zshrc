@@ -179,3 +179,4 @@ bindkey "5~" delete-word
 zstyle ':completion:*' list-colors "${(s.:.)LS_COLORS}"
 # Aliases
 alias ls='ls --color'
+export PATH="$HOME/.yarn/bin:$HOME/.config/yarn/global/node_modules/.bin:$PATH"
