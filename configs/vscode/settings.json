@@ -154,5 +154,6 @@
 	},
 	"editor.minimap.enabled": false,
 	"editor.accessibilitySupport": "off",
-	"workbench.activityBar.location": "top"
+	"workbench.activityBar.location": "top",
+	"typescript.referencesCodeLens.enabled": true
 }
