@@ -99,6 +99,27 @@
 	"editor.fontSize": 13,
 	"window.newWindowDimensions": "maximized",
 	"workbench.productIconTheme": "icons-carbon",
+	"workbench.iconTheme": "icons",
+	"extensions.ignoreRecommendations": true,
+	"editor.guides.highlightActiveIndentation": true,
+	"editor.guides.bracketPairsHorizontal": "active",
+	"diffEditor.ignoreTrimWhitespace": false,
+	"workbench.editor.enablePreview": false,
+	"editor.foldingImportsByDefault": true,
+	"workbench.colorTheme": "Material Theme Darker",
+	"terminal.external.osxExec": "iTerm.app",
+	"window.title": "${activeEditorMedium}",
+	"window.commandCenter": true,
+	"git.confirmSync": false,
+	"explorer.autoReveal": true,
+	"workbench.editor.customLabels.patterns": {
+		"**/app/**/page.tsx": "${dirname} - page.tsx",
+		"**/app/**/layout.tsx": "${dirname} - layout.tsx"
+	},
+	"editor.minimap.enabled": false,
+	"editor.accessibilitySupport": "off",
+	"workbench.activityBar.location": "top",
+	"git.autofetch": true,
 	"workbench.colorCustomizations": {
 		"input.background": "#111111",
 		"list.activeSelectionBackground": "#111111",
@@ -133,27 +154,5 @@
 		"notifications.background": "#000000",
 		"breadcrumb.background": "#000000",
 		"editorIndentGuide.activeBackground1": "#9CDBFB"
-	},
-	"workbench.iconTheme": "icons",
-	"extensions.ignoreRecommendations": true,
-	"editor.guides.highlightActiveIndentation": true,
-	"editor.guides.bracketPairsHorizontal": "active",
-	"diffEditor.ignoreTrimWhitespace": false,
-	"workbench.editor.enablePreview": false,
-	"update.showReleaseNotes": false,
-	"editor.foldingImportsByDefault": true,
-	"workbench.colorTheme": "Material Theme Darker",
-	"terminal.external.osxExec": "iTerm.app",
-	"window.title": "${activeEditorMedium}",
-	"window.commandCenter": false,
-	"git.confirmSync": false,
-	"explorer.autoReveal": true,
-	"workbench.editor.customLabels.patterns": {
-		"**/app/**/page.tsx": "${dirname} - page.tsx",
-		"**/app/**/layout.tsx": "${dirname} - layout.tsx"
-	},
-	"editor.minimap.enabled": false,
-	"editor.accessibilitySupport": "off",
-	"workbench.activityBar.location": "top",
-	"typescript.referencesCodeLens.enabled": true
+	}
 }
