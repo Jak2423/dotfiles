@@ -183,3 +183,6 @@ zstyle ':completion:*' list-colors "${(s.:.)LS_COLORS}"
 # Aliases
 alias ls='ls --color'
 export PATH="$HOME/.yarn/bin:$HOME/.config/yarn/global/node_modules/.bin:$PATH"
+
+# Added by Windsurf
+export PATH="/Users/jak/.codeium/windsurf/bin:$PATH"
