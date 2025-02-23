@@ -99,14 +99,12 @@
 	"editor.fontSize": 13,
 	"window.newWindowDimensions": "maximized",
 	"workbench.productIconTheme": "icons-carbon",
-	"workbench.iconTheme": "icons",
 	"extensions.ignoreRecommendations": true,
 	"editor.guides.highlightActiveIndentation": true,
 	"editor.guides.bracketPairsHorizontal": "active",
 	"diffEditor.ignoreTrimWhitespace": false,
 	"workbench.editor.enablePreview": false,
 	"editor.foldingImportsByDefault": true,
-	"workbench.colorTheme": "Material Theme Darker High Contrast",
 	"terminal.external.osxExec": "iTerm.app",
 	"window.title": "${activeEditorMedium}",
 	"window.commandCenter": true,
@@ -155,7 +153,6 @@
 		"breadcrumb.background": "#000000",
 		"editorIndentGuide.activeBackground1": "#9CDBFB"
 	},
-	"github.copilot.promptsCommitMessage": {
-		"semanticMessage": true
-	}
+	"workbench.colorTheme": "Material Theme Ocean High Contrast",
+	"workbench.iconTheme": "icons"
 }
