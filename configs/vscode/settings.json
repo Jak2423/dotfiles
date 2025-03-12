@@ -114,7 +114,7 @@
 		"**/app/**/page.tsx": "${dirname} - page.tsx",
 		"**/app/**/layout.tsx": "${dirname} - layout.tsx"
 	},
-	"editor.minimap.enabled": false,
+	"editor.minimap.enabled": true,
 	"editor.accessibilitySupport": "off",
 	"workbench.activityBar.location": "top",
 	"git.autofetch": true,
@@ -153,6 +153,9 @@
 		"breadcrumb.background": "#000000",
 		"editorIndentGuide.activeBackground1": "#9CDBFB"
 	},
-	"workbench.colorTheme": "Material Theme Ocean High Contrast",
-	"workbench.iconTheme": "icons"
+	"workbench.iconTheme": "icons",
+	"gitlens.currentLine.enabled": false,
+	"gitlens.codeLens.authors.enabled": false,
+	"gitlens.codeLens.recentChange.enabled": false,
+	"workbench.colorTheme": "Material Theme Ocean High Contrast"
 }
