@@ -29,7 +29,7 @@
 	"editor.guides.bracketPairs": "active",
 	"editor.multiCursorModifier": "ctrlCmd",
 	"editor.renderControlCharacters": true,
-	"editor.rulers": [150],
+	"editor.rulers": [160],
 	"editor.showFoldingControls": "mouseover",
 	"editor.quickSuggestions": {
 		"other": "on",
@@ -63,7 +63,7 @@
 	"editor.cursorBlinking": "smooth",
 	"editor.cursorStyle": "line",
 	"editor.wordWrap": "wordWrapColumn",
-	"editor.wordWrapColumn": 100,
+	"editor.wordWrapColumn": 160,
 	"editor.formatOnSave": true,
 	"editor.formatOnPaste": true,
 	"editor.unicodeHighlight.nonBasicASCII": false,
@@ -157,5 +157,6 @@
 	"gitlens.currentLine.enabled": false,
 	"gitlens.codeLens.authors.enabled": false,
 	"gitlens.codeLens.recentChange.enabled": false,
-	"workbench.colorTheme": "Material Theme Ocean High Contrast"
+	"workbench.colorTheme": "Material Theme Ocean High Contrast",
+	"terminal.integrated.suggest.enabled": true
 }
