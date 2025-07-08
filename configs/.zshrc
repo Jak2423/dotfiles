@@ -186,3 +186,6 @@ export PATH="$HOME/.yarn/bin:$HOME/.config/yarn/global/node_modules/.bin:$PATH"
 
 # Added by Windsurf
 export PATH="/Users/jak/.codeium/windsurf/bin:$PATH"
+
+# Added by Windsurf
+export PATH="/Users/jak/.codeium/windsurf/bin:$PATH"
