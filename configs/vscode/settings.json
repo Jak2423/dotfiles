@@ -29,7 +29,7 @@
 	"editor.guides.bracketPairs": "active",
 	"editor.multiCursorModifier": "ctrlCmd",
 	"editor.renderControlCharacters": true,
-	"editor.rulers": [160],
+	// "editor.rulers": [140],
 	"editor.showFoldingControls": "mouseover",
 	"editor.quickSuggestions": {
 		"other": "on",
@@ -62,8 +62,8 @@
 	"editor.smoothScrolling": true,
 	"editor.cursorBlinking": "smooth",
 	"editor.cursorStyle": "line",
-	"editor.wordWrap": "wordWrapColumn",
-	"editor.wordWrapColumn": 160,
+	"editor.wordWrap": "on",
+	"editor.wordWrapColumn": 140,
 	"editor.formatOnSave": true,
 	"editor.formatOnPaste": true,
 	"editor.unicodeHighlight.nonBasicASCII": false,
@@ -114,7 +114,7 @@
 		"**/app/**/page.tsx": "${dirname} - page.tsx",
 		"**/app/**/layout.tsx": "${dirname} - layout.tsx"
 	},
-	"editor.minimap.enabled": true,
+	"editor.minimap.enabled": false,
 	"editor.accessibilitySupport": "off",
 	"workbench.activityBar.location": "top",
 	"git.autofetch": true,
@@ -157,6 +157,6 @@
 	"gitlens.currentLine.enabled": false,
 	"gitlens.codeLens.authors.enabled": false,
 	"gitlens.codeLens.recentChange.enabled": false,
-	"workbench.colorTheme": "Material Theme Ocean High Contrast",
-	"terminal.integrated.suggest.enabled": true
+	"terminal.integrated.suggest.enabled": true,
+	"workbench.colorTheme": "Material Theme High Contrast"
 }

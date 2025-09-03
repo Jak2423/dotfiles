@@ -35,5 +35,13 @@
 		"key": "shift+cmd+m",
 		"command": "-workbench.actions.view.problems",
 		"when": "workbench.panel.markers.view.active"
+	},
+	{
+		"key": "cmd+i",
+		"command": "composerMode.agent"
+	},
+	{
+		"key": "cmd+e",
+		"command": "composerMode.background"
 	}
 ]
