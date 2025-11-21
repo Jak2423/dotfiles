@@ -20,6 +20,9 @@ export PATH="$PATH:/Users/jak/flutter/bin"
 
 export PATH="/usr/local/texlive/2023/bin/universal-darwin:$PATH"
 
+export ZSH_COMPDUMP=$ZSH/cache/.zcompdump-$HOST
+
+
 
 # Set name of the theme to load --- if set to "random", it will
 # load a random theme each time oh-my-zsh is loaded, in which case,
@@ -36,7 +39,7 @@ ZSH_THEME="powerlevel10k/powerlevel10k"
 # Uncomment the following line to use case-sensitive completion.
 # CASE_SENSITIVE="true"
 
-# Uncomment the following line to use hyphen-insensitive completion.
+# Uncomment the following line to`` use hyphen-insensitive completion.
 # Case-sensitive completion must be off. _ and - will be interchangeable.
 # HYPHEN_INSENSITIVE="true"
 
@@ -133,6 +136,7 @@ export NVM_DIR="$HOME/.nvm"
 
 # To customize prompt, run `p10k configure` or edit ~/.dotfiles/.p10k.zsh.
 [[ ! -f ~/.dotfiles/.p10k.zsh ]] || source ~/.dotfiles/.p10k.zsh
+
 
 # Aliases
 alias c='clear'
