@@ -28,6 +28,8 @@ ln -s ~/.dotfiles/configs/neofetch ~/.config
 ln -s /Users/jak/.dotfiles/configs/vscode/settings.json /Users/jak/Library/Application\ Support/Code/User/settings.json
 ln -s /Users/jak/.dotfiles/configs/vscode/keybindings.json /Users/jak/Library/Application\ Support/Code/User/keybindings.json
 ln -s /Users/jak/.dotfiles/configs/vscode/snippets/ /Users/jak/Library/Application\ Support/Code/User
+ln -s /Users/jak/.dotfiles/configs/cursor/settings.json /Users/jak/Library/Application\ Support/Cursor/User/settings.json
+
 ```
 
 ````
