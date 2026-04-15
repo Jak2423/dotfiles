@@ -61,5 +61,5 @@
 		"key": "ctrl+k",
 		"command": "workbench.action.terminal.focus",
 		"when": "terminalFocus"
-	}
+   }
 ]

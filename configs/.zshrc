@@ -20,6 +20,8 @@ export PATH="$PATH:/Users/jak/flutter/bin"
 
 export PATH="/usr/local/texlive/2023/bin/universal-darwin:$PATH"
 
+export PATH="$PATH:$HOME/.pub-cache/bin"
+
 export ZSH_COMPDUMP=$ZSH/cache/.zcompdump-$HOST
 
 
