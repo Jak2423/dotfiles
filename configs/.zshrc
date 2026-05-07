@@ -5,6 +5,9 @@ if [[ -r "${XDG_CACHE_HOME:-$HOME/.cache}/p10k-instant-prompt-${(%):-%n}.zsh" ]]
   source "${XDG_CACHE_HOME:-$HOME/.cache}/p10k-instant-prompt-${(%):-%n}.zsh"
 fi
 
+autoload -Uz compinit
+compinit
+
 # If you come from bash you might have to change your $PATH.
 # export PATH=$HOME/bin:/usr/local/bin:$PATH
 
@@ -22,7 +25,11 @@ export PATH="/usr/local/texlive/2023/bin/universal-darwin:$PATH"
 
 export PATH="$PATH:$HOME/.pub-cache/bin"
 
+export PATH="$HOME/.local/bin:$PATH"
+
 export ZSH_COMPDUMP=$ZSH/cache/.zcompdump-$HOST
+
+source <(kubectl completion zsh)
 
 
 
@@ -190,8 +197,6 @@ zstyle ':completion:*' list-colors "${(s.:.)LS_COLORS}"
 alias ls='ls --color'
 export PATH="$HOME/.yarn/bin:$HOME/.config/yarn/global/node_modules/.bin:$PATH"
 
-# Added by Windsurf
-export PATH="/Users/jak/.codeium/windsurf/bin:$PATH"
 
-# Added by Windsurf
-export PATH="/Users/jak/.codeium/windsurf/bin:$PATH"
+
+ typeset -g POWERLEVEL9K_INSTANT_PROMPT=quiet

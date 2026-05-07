@@ -10,16 +10,16 @@
 	"explorer.confirmDragAndDrop": false,
 	"editor.defaultFormatter": "esbenp.prettier-vscode",
 	"[javascript]": {
-		"editor.defaultFormatter": "esbenp.prettier-vscode"
+		"editor.defaultFormatter": "esbenp.prettier-vscode",
 	},
 	"[typescript]": {
-		"editor.defaultFormatter": "esbenp.prettier-vscode"
+		"editor.defaultFormatter": "esbenp.prettier-vscode",
 	},
 	"[typescriptreact]": {
-		"editor.defaultFormatter": "esbenp.prettier-vscode"
+		"editor.defaultFormatter": "esbenp.prettier-vscode",
 	},
 	"[json]": {
-		"editor.defaultFormatter": "esbenp.prettier-vscode"
+		"editor.defaultFormatter": "esbenp.prettier-vscode",
 	},
 	"javascript.updateImportsOnFileMove.enabled": "always",
 	"typescript.updateImportsOnFileMove.enabled": "always",
@@ -34,7 +34,7 @@
 	"editor.quickSuggestions": {
 		"other": "on",
 		"comments": "off",
-		"strings": true
+		"strings": true,
 	},
 
 	"files.autoSave": "onFocusChange",
@@ -52,7 +52,7 @@
 		"**/.project": true,
 		"**/.factorypath": true,
 		"**/*.meta": true,
-		"**/Icon*": true
+		"**/Icon*": true,
 	},
 	"editor.tabSize": 3,
 	"editor.insertSpaces": true,
@@ -80,7 +80,7 @@
 	"editor.codeActionsOnSave": {
 		"source.fixAll": "explicit",
 		"source.sortImport": "explicit",
-		"source.organizeImports": "explicit"
+		"source.organizeImports": "explicit",
 	},
 	"editor.inlineSuggest.enabled": true,
 	"[dart]": {
@@ -91,7 +91,7 @@
 		"editor.suggest.snippetsPreventQuickSuggestions": true,
 		"editor.suggestSelection": "recentlyUsedByPrefix",
 		"editor.tabCompletion": "onlySnippets",
-		"editor.wordBasedSuggestions": "off"
+		"editor.wordBasedSuggestions": "off",
 	},
 	"editor.foldingStrategy": "indentation",
 	"workbench.list.smoothScrolling": true,
@@ -111,7 +111,7 @@
 	"explorer.autoReveal": true,
 	"workbench.editor.customLabels.patterns": {
 		"**/app/**/page.tsx": "${dirname} - page.tsx",
-		"**/app/**/layout.tsx": "${dirname} - layout.tsx"
+		"**/app/**/layout.tsx": "${dirname} - layout.tsx",
 	},
 	"editor.minimap.enabled": false,
 	"editor.accessibilitySupport": "off",
@@ -150,7 +150,7 @@
 		"editorOverviewRuler.border": "#000000",
 		"notifications.background": "#000000",
 		"breadcrumb.background": "#000000",
-		"editorIndentGuide.activeBackground1": "#9CDBFB"
+		"editorIndentGuide.activeBackground1": "#9CDBFB",
 	},
 	"workbench.iconTheme": "icons",
 	// "gitlens.currentLine.enabled": false,
@@ -162,5 +162,7 @@
 	"javascript.preferences.importModuleSpecifier": "non-relative",
 	"typescript.preferences.importModuleSpecifier": "non-relative",
 	"window.commandCenter": true,
-	"git.ignoreMissingGitWarning": true
+	"git.ignoreMissingGitWarning": true,
+   "workbench.editor.closeEmptyGroups": false,
+   "window.autoDetectColorScheme": false,
 }
