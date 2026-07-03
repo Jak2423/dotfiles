@@ -158,4 +158,7 @@
 	"symbols.hidesExplorerArrows": false,
 	"workbench.iconTheme": "material-icon-theme",
 	"workbench.colorTheme": "Material Theme Darker High Contrast",
+	"cursor.composer.shouldChimeAfterChatFinishes": true,
+	"cursor.composer.editorConversationDensity": "detailed",
+	"claudeCode.preferredLocation": "sidebar",
 }
