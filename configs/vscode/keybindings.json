@@ -61,5 +61,13 @@
 		"key": "ctrl+k",
 		"command": "workbench.action.terminal.focus",
 		"when": "terminalFocus",
-	},
+    },
+    {
+        "key": "shift+enter",
+        "command": "workbench.action.terminal.sendSequence",
+        "args": {
+            "text": "\u001b\r"
+        },
+        "when": "terminalFocus"
+    },
 ]

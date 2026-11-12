@@ -167,7 +167,8 @@ alias gu="git reset --soft HEAD~1"
 [ -d ~/Documents ]            && alias dm='cd ~/Documents'
 [ -d ~/Downloads ]            && alias dl='cd ~/Downloads'
 [ -d ~/Desktop ]              && alias dt='cd ~/Desktop'
-[ -d ~/Desktop/Projects ]     && alias dev='cd ~/Desktop/Projects'
+[ -d ~/Desktop/Zochil ]     && alias zo='cd ~/Desktop/Zochil'
+[ -d ~/Projects ]     && alias dev='cd ~/Projects'
 
 alias o='open'
 alias oo='open .'
@@ -181,7 +182,7 @@ alias yd='yarn dev'
 alias yb='yarn build'
 
 
-alias cc="claude"
+alias cc="claude --dangerously-skip-permissions"
 alias cr="claude --resume"
 alias cu="claude update"
 
@@ -204,3 +205,12 @@ export PATH="$HOME/.yarn/bin:$HOME/.config/yarn/global/node_modules/.bin:$PATH"
 
 
  typeset -g POWERLEVEL9K_INSTANT_PROMPT=quiet
+
+# bun completions
+[ -s "/Users/jak/.bun/_bun" ] && source "/Users/jak/.bun/_bun"
+
+# bun
+export BUN_INSTALL="$HOME/.bun"
+export PATH="$BUN_INSTALL/bin:$PATH"
+export PATH="/opt/homebrew/opt/libpq/bin:$PATH" source /Users/jak/.zshrc ​
+export PATH="/opt/homebrew/opt/libpq/bin:$PATH"
